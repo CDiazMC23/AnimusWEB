@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png">
+    <link rel="stylesheet" href="animus.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animus</title>
+</head>
+<body>
+    <canvas id="animus-bg"></canvas>
+
+    <div class="inicio">
+        <img src="https://logos-world.net/wp-content/uploads/2020/06/Logo-Assassins-Creed.png" alt="Assassin's Creed" class="logo">
+        <button id="entrar">ENTRAR</button>
+    </div>
+
+    <script>
+    document.getElementById("entrar").addEventListener("click", () => {
+      window.location.href = "indexMenu.html";
+    });
+    </script>
+    <script type="module" src="animus.js"></script>
+</body>
+</html>
